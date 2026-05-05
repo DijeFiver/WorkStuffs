@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>產品客訴處理指南 - 教育訓練</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>產品客訴處理指南</h1>
+        <p>專業、同理心、效率：將危機化為轉機</p>
+    </header>
+
+    <main>
+        <!-- 核心流程區 -->
+        <section id="sop">
+            <h2><span class="icon">📋</span> 客訴處理四部曲 (EARS)</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Empathize (同理)</h3>
+                    <p>先處理情緒，再處理事情。確認對方的感受被聽見。</p>
+                </div>
+                <div class="card">
+                    <h3>Acknowledge (確認)</h3>
+                    <p>釐清問題核心，重複客戶的訴求以確保資訊一致。</p>
+                </div>
+                <div class="card">
+                    <h3>Resolve (解決)</h3>
+                    <p>提供具體的解決方案，給予客戶選擇權（方案 A 或 B）。</p>
+                </div>
+                <div class="card">
+                    <h3>Satisfy (滿意)</h3>
+                    <p>後續追蹤確認問題已徹底解決，並表達感謝。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 應對禁忌區 -->
+        <section id="tips">
+            <h2><span class="icon">⚠️</span> 溝通禁忌與技巧</h2>
+            <ul class="tips-list">
+                <li><strong>❌ 避免說：</strong>「這是公司的規定。」</li>
+                <li><strong>✅ 試著說：</strong>「我會幫您向相關部門爭取最適當的處理方式。」</li>
+                <li><strong>❌ 避免說：</strong>「您冷靜一點。」</li>
+                <li><strong>✅ 試著說：</strong>「我完全理解這件事讓您感到困擾，我非常重視您的反饋。」</li>
+            </ul>
+        </section>
+
+        <!-- 互動模擬區 -->
+        <section id="interactive">
+            <h2><span class="icon">💬</span> 情境模擬練習</h2>
+            <div class="quiz-container">
+                <p id="scenario"><strong>情境：</strong> 客戶反應購買的產品在保固期內損壞，但維修零件缺料，情緒非常激動。</p>
+                <p>你會如何回應？</p>
+                <div class="options">
+                    <button onclick="checkAnswer(1)">告知這是全球缺料，請他繼續等候。</button>
+                    <button onclick="checkAnswer(2)">表達歉意並主動提供替代備品使用，並承諾零件抵達時第一時間通知。</button>
+                    <button onclick="checkAnswer(3)">直接請主管出面處理。</button>
+                </div>
+                <p id="feedback" class="hidden"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 企業教育訓練中心 - 客服力專案</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
